@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+:root{
+    --font:'Poppins', sans-serif;
+    --purple:#753a88;
+    --red:#ff5e91;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--font);
+    background: #cc2b5e;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #753a88, #cc2b5e); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:var(--red);
+}
+
+.header{
+    background-color: black;
+    padding: 1rem 2rem;
+    border-radius: 14px;
+}
+
+.title{
+    font-size: 3rem;
+    color: var(--red);
+}
+
+.container{
+    background-color: black;
+    width: 560px;
+    height: 360px;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    display: grid;
+    place-items: center;
+}
+
+.option{
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.label{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.input{
+    width: 65%;
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    border: 2px solid whitesmoke;
+    background:linear-gradient(to right, #753a88, #cc2b5e);
+    padding: .4rem 0 0 1.5rem;
+    color: whitesmoke;
+    letter-spacing: .5px;
+    font-size: 1.3rem;
+}
+
+.input::placeholder{
+    color: whitesmoke;
+    letter-spacing: .5px;
+    font-size: 1.3rem;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+#submit{
+    margin-top: 3rem;
+    margin-left: 200px;
+    font-size: 1.4rem;
+    color: var(--purple);
+    font-weight: bolder;
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+#submit:active{
+    transform: scale(.99);
+}
+
+.parrafo{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.time{
+    color: var(--purple);
+    text-decoration: underline;
+}
