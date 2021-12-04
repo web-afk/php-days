@@ -1,27 +1,3 @@
-<?php
-
-// $date1 = date_create_from_format('Y-m-d','2002-04-09');
-// $date2 = date_create_from_format('Y-m-d',date('Y-m-d'));
-
-// echo "<pre>";
-// var_dump($date1);
-// echo "</pre>";
-
-// echo "<pre>";
-// var_dump($date2);
-// echo "</pre>";
-
-// $diff = (array) date_diff($date1,$date2);
-
-// echo "<pre>";
-// var_dump($diff['days']);
-// echo "</pre>";
-
-// echo "<pre>";
-// var_dump($_POST);
-// echo "</pre>";
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
